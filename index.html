@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title> Baking at Home </title>
-        <meta name="description" content="Trusted Baking Recipes from a Self-Taught Baker">
+        <link rel="stylesheet" href="style.css">
         
     </head>
 
@@ -14,15 +14,14 @@
         
         <header>
 
-            <h1> Baking at Home</h1>
-            <p> Kumpulan resep-resep kue praktis dan lezat yang bisa anda buat sendiri di rumah. </p>
+            <h1> Baking at Home </h1>
 
             <nav>
                 <ul>
                     <li> <a href="#"> Home </a> </li>
+                    <li> <a href="#"> All Recipes </a> </li>
+                    <li> <a href="#"> Categories </a> </li>
                     <li> <a href="#"> About </a> </li>
-                    <li> <a href="#"> Resep </a> </li>
-                    <li> <a href="#"> Contact </a> </li>
                 </ul>
             </nav>
 
@@ -30,49 +29,157 @@
 
         <main>
 
-            <section>
-                <h2> Selamat Datang di Baking at Home! </h2>
-                <p> Di sini anda dapat menemukan berbagai resep kue lezat yang bisa anda buat sendiri di rumah. Mulai dari resep kue klasik hingga kreasi modern, semua ada di sini. </p>
+            <section class="cover">
+                <div class="cover-image">
+                    <img src="images/cover.jpeg" alt="Baking at Home">
+                </div>
+                <h2> Welcome to the World of Homemade Baking</h2>
+                <p>
+                    Discover delicious recipes you can easily bake at home — from classic cookies to indulgent cakes. 
+                    Whether you're a beginner or a pro, this is your place to find inspiration for your next bake.
+                </p>
             </section>
 
-            <section>
-                <h2> Resep Pilihan </h2>
-                <ul>
-                    <li> <a href="#"> Chesecake </a> </li>
-                    <li> <a href="#"> Cupcakes </a> </li>
-                    <li> <a href="#"> Cookies </a> </li>
-                    <li> <a href="#"> Brownies </a> </li>
-                </ul>
+            <section class="search-section">
+                <h2> What do you want to bake today? </h2>
+                <form class="search-bar">
+                    <input type="text" placeholder="Search recipes . . .">
+                    <button type="submit"> 🔍 </button>
+                </form>
             </section>
 
-            <section>
+            <section class="about">
+                <h2> About Baking at Home </h2>
+                <div class="about-content">
+                    <img src="images/about.jpeg"> 
+                    <p>
+                        Baking at Home is a collection of tried-and-true recipes designed for every kitchen. 
+                        Our goal is to make baking simple, fun, and rewarding — so you can create sweet moments to share with family and friends.
+                    </p>
+                </div>
+            </section>
+
+            <section class="categories">
+                <h2> Categories </h2>
+                <div class="grid">
+                    <div class="cat">
+                        <a href="#">
+                            <img src="images/cheesecake.webp" alt="Cheesecake">
+                            <p> Cheesecake </p>
+                        </a>
+                    </div>
+                    <div class="cat">
+                            <a href="#">
+                            <img src="images/cakes.webp" alt="Cake">
+                            <p> Cake </p>
+                        </a>
+                    </div>
+                    <div class="cat">
+                        <a href="#">
+                            <img src="images/pies.jpg" alt Pies>
+                            <p> Pies </p>
+                        </a>
+                    </div>
+                    <div class="cat">
+                        <a href="#">
+                            <img src="images/brownies.jpg" alt="Brownie">
+                            <p> Brownie </p>
+                        </a>
+                    </div>
+                    <div class="cat">
+                        <a href="#">
+                            <img src="images/cookies.webp" alt="Cookies">
+                            <p> Cookies </p>
+                        </a>
+                    </div>
+                    <div class="cat">
+                        <a href="#">
+                            <img src="images/bread.jpg" alt="Bread">
+                            <p> Bread </p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tips">
                 <h2> Best Baking Tips </h2>
-                <p> Kalau kamu pengen belajar dasar-dasar baking, pas banget deh di sini! Aku punya banyak tips seru buat dibagi. Semua pengalaman yang udah aku kumpulin selama ini jadi modal oke buat aku terus berbagi sama kalian. </p>
-                <ul>
-                    <li> <a href="#"> Panduan membuat kue dengan ragi </a> </li>
-                    <li> <a href="#"> Pengganti tepung pada cake </a> </li>
-                    <li> <a href="#"> Cara membuat brown butter </a> </li>
-                    <li> <a href="#"> Cara membuat cokelat ganache </a> </li>
-                </ul>
+                <p> 
+                    Level up your baking with easy-to-follow tips and techniques. 
+                    From mastering yeast dough to perfecting buttercream, these guides will help you achieve bakery-quality results at home.
+                </p>
+                <div class="grid">
+                    <div class="tip">
+                        <a href="#">
+                            <img src="images/brown butter.webp" alt="Brown Butter">
+                            <p> How to Brown Butter </p>
+                        </a>
+                    </div>
+                    <div class="tip">
+                        <a href="#">
+                            <img src="images/chocolate ganache.webp" alt="Chocolate Ganache">
+                            <p> How to Make Chocolate Ganache </p>
+                        </a>
+                    </div>
+                    <div class="tip">
+                        <a href="#">
+                            <img src="images/yeast guide.jpg" alt="Yeast Guide">
+                            <p> Baking with Yeast Guide </p>
+                        </a>
+                    </div>
+                </div>
             </section>
 
-            <section>
-                <h2> Craving Cookies </h2>
-                <p> Selamat datang di kategori resep kue paling lengkap nih! Dari yang klasik kayak chewy chocolate chip cookies sama sugar cookies sampai yang jadi favorit banyak orang kayak snickerdoodles dan oatmeal raisin cookies, semua ada di sini dengan ratusan resep kue yang bisa kamu coba. </p>
-                <ul>
-                    <li> <a href="#"> Inside Out Chocolate Chip Cookies </a> </li>
-                    <li> <a href="#"> Soft & Thick Snickerdoodles </a> </li>
-                    <li> <a href="#"> Cake Batter Chocolate Chip Cookies </a> </li>
-                    <li> <a href="#"> Soft & Thick Peanut Butter Cookies </a> </li>
-                    <li> <a href="#"> Chocolate Frosted Cookies </a> </li>
-                </ul>
+            <section class="cookies">
+                <h2> Craving Cookies? </h2>
+                <p>
+                    If cookies are your comfort food, you’re in the right place. 
+                    Explore our collection of chewy, crispy, and buttery cookies that are perfect for any occasion.
+                </p>
+                <div class="grid">
+                    <div class="cookie">
+                        <a href="#">
+                            <img src="images/snickerdoodles cookies.jpg" alt="Snickerdoodles Cookies">
+                            <p> Soft & Thick Snickerdoodles </p>
+                        </a>
+                    </div>
+                    <div class="cookie">
+                        <a href="#">
+                            <img src="images/peanut cookies.jpeg" alt="Peanut Cookies">
+                            <p> Soft & Thick Peanut Butter Cookies </p>
+                        </a>
+                    </div>
+                    <div class="cookie">
+                        <a href="#">
+                            <img src="images/inside cookies.webp" alt="Inside Cookies">
+                            <p> Inside Out Chocolate Chip Cookies </p>
+                        </a>
+                    </div>
+                    <div class="cookie">
+                        <a href="#">
+                            <img src="images/frosted cookies.jpeg" alt="Frosted Cookies">
+                            <p> Chocolate Frosted Cookies </p>
+                        </a>
+                    </div>
+                    <div class="cookie">
+                        <a href="#">
+                            <img src="images/oatmeal cookies.jpeg" alt="Oatmeal Cookies">
+                            <p> Chewy Oatmeal Chocolate Chip Cookies </p>
+                        </a>
+                    </div>
+                    <div class="cookie">
+                        <a href="#">
+                            <img src="images/batter cookies.jpeg" alt="Batter Cookies">
+                            <p> Cake Batter Chocolate Chip Cookies </p>
+                        </a>
+                    </div>
+                </div>
             </section>
 
         </main>
 
         <footer>
 
-            <p> &copy; 2025 Baking at Home </p>
+            <p> &copy; 2025 Baking at Home. All Rights Reserved. </p>
             <p> Referensi desain dari <a href="https://sallysbakingaddiction.com/" target="_blank"> Sally's Baking Addiction </a> </p>
 
         </footer>

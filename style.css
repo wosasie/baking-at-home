@@ -1,0 +1,322 @@
+body {
+  font-family: "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #d4d994;
+  color: #893941;
+}
+
+a {
+  text-decoration: none;
+  color: #893941;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #cb7885;
+}
+
+
+
+ /* header ૮₍˶ •. • ⑅₎ა ♡ */
+
+header {
+  padding: 20px;
+  background-color: #893941;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0 0 10px 0;
+  font-size: 32px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li a {
+  color: #fff;
+}
+
+header nav ul li a:hover {
+  color: #cb7885;
+}
+
+
+
+/* coverz ૮₍｡´ᴖ ˔ ᴖ`｡₎ა */
+
+.cover {
+  padding: 40px 20px;
+  background-color: #cb7885;
+  color: #fff;
+}
+
+.cover h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.cover p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cover-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+  border: 3px solid #5e6623;
+}
+
+
+
+/* search ☆૮꒰•༝ •。꒱ა */
+
+.search-section {
+  margin: 30px 0;
+}
+
+.search-section h2 {
+  margin-bottom: 15px;
+  color: #5e6623;
+}
+
+.search-bar input {
+  width: 300px;
+  padding: 8px 12px;
+  border: 2px solid #893941;
+  border-radius: 20px;
+}
+
+.search-bar button {
+  border: none;
+  background: #893941;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.search-bar button:hover {
+  background: #cb7885;
+}
+
+
+
+/* about (∩˃o˂∩)♡ */
+
+.about {
+  padding: 40px 20px;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.about-content img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  border: 3px solid #5e6623;
+}
+
+.about-content p {
+  max-width: 500px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+/* categori (∗´ര ᎑ ര`∗) */
+
+.categories {
+  padding: 40px 20px;
+}
+
+.categories h2 {
+  margin-bottom: 20px;
+  color: #893941;
+}
+
+.categories .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.categories .cat {
+  background: #d4d994;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.categories .cat:hover {
+  transform: scale(1.05);
+  background: #cb7885;
+}
+
+.categories .cat img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #5e6623;
+}
+
+.categories .cat p {
+  margin-top: 8px;
+  font-size: 16px;
+  color: #893941;
+}
+
+
+
+/* baking tipsz ⸜(｡ ˃ ᵕ ˂ )⸝♡ */
+
+.tips {
+  padding: 40px 20px;
+}
+
+.tips h2 {
+  margin-bottom: 15px;
+  color: #893941;
+}
+
+.tips p {
+  margin-bottom: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tips .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tips .tip {
+  background: #d4d994;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.tips .tip:hover {
+  transform: scale(1.05);
+  background: #cb7885;
+}
+
+.tips .tip img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #5e6623;
+}
+
+.tips .tip p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #893941;
+}
+
+
+
+/* craving cookiesz ☆ ～('▽^人) */
+
+.cookies {
+  padding: 40px 20px;
+}
+
+.cookies h2 {
+  margin-bottom: 15px;
+  color: #893941;
+}
+
+.cookies p {
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cookies .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cookies .cookie {
+  background: #d4d994;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.cookies .cookie:hover {
+  transform: scale(1.05);
+  background: #cb7885;
+}
+
+.cookies .cookie img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #5e6623;
+}
+
+.cookies .cookie p {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #893941;
+}
+
+
+
+/* footer o(>ω<)o */
+
+footer {
+  padding: 20px;
+  background-color: #893941;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer a {
+  color: #cb7885;
+}
+
+footer a:hover {
+  color: #d4d994;
+}
