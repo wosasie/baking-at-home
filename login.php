@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $username = $_POST['username'] ?? '';
   $password = $_POST['password'] ?? '';
 
-  $valid_user = "admin";
+  $valid_user = "cakelovers";
   $valid_pass = "12345";
 
   if ($username === $valid_user && $password === $valid_pass) {
@@ -37,26 +37,28 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 </head>
 
-<body>
+  <body>
 
-  <h1> Login ke Baking at Home </h1>
-  
-  <?php if (isset($error)): ?>
-    <p style="color:red;"><?php echo $error; ?></p>
-  <?php endif; ?>
+    <div class="login-container">
+      <h1> Login ke Baking at Home 🍰 </h1>
+      
+      <?php if (isset($error)): ?>
+        <p class="error-msg"><?php echo $error; ?></p>
+      <?php endif; ?>
 
-  <form method="POST" action="login.php">
-    <label> Username: </label> <br>
-    <input type="text" name="username" required> <br> <br>
+      <form method="POST" action="login.php">
+        <label> Username: </label>
+        <input type="text" name="username" required>
 
-    <label>Password:</label><br>
-    <input type="password" name="password" required> <br> <br>
+        <label> Password: </label>
+        <input type="password" name="password" required>
 
-    <button type="submit"> Login </button>
-  </form>
+        <button type="submit"> Login </button>
+      </form>
 
-  <p> Gunakan <b> admin </b> dan <b> 12345 </b> untuk login.</p>
+      <p class="link"> Use <b> cakelovers </b> and <b> 12345 </b> to login. </p>
+    </div>
 
-</body>
+  </body>
 
 </html>

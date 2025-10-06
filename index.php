@@ -2,7 +2,7 @@
 session_start();
 
 if (isset($_GET['from']) && $_GET['from'] === 'dashboard') {
-  $msg = "Hai, {$_SESSION['username']}! Selamat datang kembali di halaman utama 🍰";
+  $msg = "Hai, {$_SESSION['username']}! Welcome back ! 🍰";
 }
 
 ?>
@@ -23,7 +23,7 @@ if (isset($_GET['from']) && $_GET['from'] === 'dashboard') {
   <body>
 
   <?php if (isset($msg)): ?>
-      <p style="background:#cb7885;color:white;padding:10px;"><?php echo $msg; ?></p>
+      <p style="background:#cb7885; color:white; padding:10px;"> <?php echo $msg; ?> </p>
     <?php endif; ?>
 
     <header>

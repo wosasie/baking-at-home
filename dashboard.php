@@ -21,15 +21,17 @@ $username = $_SESSION['username'];
 
 </head>
 
-<body>
+  <body>
 
-  <h1> Selamat Datang, <?php echo htmlspecialchars($username); ?>! 🧁 </h1>
-  <p> Ini adalah halaman dashboard Baking at Home. </p>
+    <div class="dashboard-container">
+      <h1> Welcome, <?php echo htmlspecialchars($username); ?>! 🧁</h1>
+      <p> This is the Baking at Home dashboard page.</p>
 
-  <p><a href="index.php?from=dashboard"> Kembali ke halaman utama </a> </p>
-  <p><a href="logout.php"> Logout </a> </p>
-
-</body>
+      <a href="index.php?from=dashboard">🏠 Dashboard </a>
+      <a href="logout.php">🚪 Logout </a>
+    </div>
+ 
+  </body>
 
 </html>
 
