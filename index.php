@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if (isset($_GET['from']) && $_GET['from'] === 'dashboard') {
+  $msg = "Hai, {$_SESSION['username']}! Selamat datang kembali di halaman utama 🍰";
+}
+
+?>
 <!DOCTYPE html>
 
 <html lang="id">
@@ -13,6 +21,10 @@
   </head>
 
   <body>
+
+  <?php if (isset($msg)): ?>
+      <p style="background:#cb7885;color:white;padding:10px;"><?php echo $msg; ?></p>
+    <?php endif; ?>
 
     <header>
 
