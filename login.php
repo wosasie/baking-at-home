@@ -23,6 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $error = "Username atau password salah!";
   }
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -31,32 +32,32 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 <head>
 
-  <meta charset="UTF-8">
+  <meta charset = "UTF-8">
   <title> Login - Baking at Home </title>
-  <link rel="stylesheet" href="style.css">
+  <link rel = "stylesheet" href = "style.css">
 
 </head>
 
   <body>
 
-    <div class="login-container">
+    <div class = "login-container">
       <h1> Login ke Baking at Home 🍰 </h1>
       
       <?php if (isset($error)): ?>
-        <p class="error-msg"><?php echo $error; ?></p>
+        <p class = "error-msg"><?php echo $error; ?></p>
       <?php endif; ?>
 
-      <form method="POST" action="login.php">
+      <form method = "POST" action = "login.php">
         <label> Username: </label>
-        <input type="text" name="username" required>
+        <input type = "text" name = "username" required>
 
         <label> Password: </label>
-        <input type="password" name="password" required>
+        <input type = "password" name = "password" required>
 
-        <button type="submit"> Login </button>
+        <button type = "submit"> Login </button>
       </form>
 
-      <p class="link"> Use <b> cakelovers </b> and <b> 12345 </b> to login. </p>
+      <p class = "link"> Use <b> cakelovers </b> and <b> 12345 </b> to login. </p>
     </div>
 
   </body>

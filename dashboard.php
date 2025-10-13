@@ -27,8 +27,8 @@ $username = $_SESSION['username'];
       <h1> Welcome, <?php echo htmlspecialchars($username); ?>! 🧁</h1>
       <p> This is the Baking at Home dashboard page.</p>
 
-      <a href="index.php?from=dashboard">🏠 Dashboard </a>
-      <a href="logout.php">🚪 Logout </a>
+      <a href="index.php?from=dashboard"> 🏠 Dashboard </a>
+      <a href="logout.php"> 🚪 Logout </a>
     </div>
  
   </body>

@@ -13,17 +13,17 @@ if (isset($_GET['from']) && $_GET['from'] === 'dashboard') {
   <head>
 
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name = "viewport" content = "width=device-width, initial-scale=1" />
     <title> Baking at Home </title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer> </script>
+    <link rel= "stylesheet" href= "style.css" />
+    <script src = "script.js" defer> </script>
 
   </head>
 
   <body>
 
   <?php if (isset($msg)): ?>
-      <p style="background:#cb7885; color:white; padding:10px;"> <?php echo $msg; ?> </p>
+      <p style = "background:#cb7885; color:white; padding:10px;"> <?php echo $msg; ?> </p>
     <?php endif; ?>
 
     <header>
@@ -32,11 +32,11 @@ if (isset($_GET['from']) && $_GET['from'] === 'dashboard') {
 
       <nav>
         <ul>
-          <li><a href="#home"> Home </a> </li>
-          <li><a href="#tips"> Tips </a> </li>
-          <li><a href="#categories"> Categories </a> </li>
-          <li><a href="#cookies"> All Recipes </a> </li>
-          <li><a href="#about"> About</a> </li>
+          <li><a href ="#home"> Home </a> </li>
+          <li><a href = "#tips"> Tips </a> </li>
+          <li><a href = "#categories"> Categories </a> </li>
+          <li><a href = "#cookies"> All Recipes </a> </li>
+          <li><a href = "#about"> About</a> </li>
         </ul>
       </nav>
 
@@ -44,9 +44,9 @@ if (isset($_GET['from']) && $_GET['from'] === 'dashboard') {
 
     <main>
 
-      <section id="home" class="cover">
-        <div class="cover-image">
-          <img src="images/cover.jpeg" alt="Baking at Home" />
+      <section id = "home" class = "cover">
+        <div class = "cover-image">
+          <img src = "images/cover.jpeg" alt = "Baking at Home" />
         </div>
         <h2> Welcome to the World of Homemade Baking </h2>
         <p>

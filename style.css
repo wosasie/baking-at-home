@@ -468,3 +468,142 @@ form button:hover {
 .dashboard-container a:hover {
   background: #893941;
 }
+
+/* nyap */
+
+.crud-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 30px;
+  background: #fff6f7;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border: 2px solid #cb7885;
+  text-align: center;
+}
+
+.crud-container h2 {
+  color: #893941;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.crud-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.crud-container input[type="text"],
+.crud-container textarea,
+.crud-container input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #893941;
+  border-radius: 10px;
+  font-size: 15px;
+  background: #fff;
+  transition: 0.2s ease;
+}
+
+.crud-container input[type="text"]:focus,
+.crud-container textarea:focus,
+.crud-container input[type="file"]:focus {
+  outline: none;
+  border-color: #cb7885;
+  box-shadow: 0 0 8px #cb7885;
+}
+
+.crud-container button {
+  background: #893941;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.crud-container button:hover {
+  background: #cb7885;
+}
+
+.crud-container a.back-link {
+  display: inline-block;
+  margin-top: 15px;
+  color: #cb7885;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.crud-container a.back-link:hover {
+  text-decoration: underline;
+}
+
+/* 🌸 Table Read Page */
+.table-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff6f7;
+  padding: 25px;
+  border-radius: 20px;
+  border: 2px solid #cb7885;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.table-container h2 {
+  margin-bottom: 15px;
+  color: #893941;
+}
+
+.table-container a.add-btn {
+  display: inline-block;
+  background: #893941;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.table-container a.add-btn:hover {
+  background: #cb7885;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 10px;
+  border-bottom: 1px solid #cb7885;
+  text-align: center;
+}
+
+.table-container th {
+  background: #cb7885;
+  color: white;
+}
+
+.table-container tr:hover {
+  background: #f9e7e9;
+}
+
+.table-container img {
+  border-radius: 8px;
+}
+
+.table-container a {
+  color: #893941;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.table-container a:hover {
+  color: #cb7885;
+}
